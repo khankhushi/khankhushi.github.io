@@ -1472,7 +1472,6 @@ header .scroll-btn-container div a span:nth-child(3) {
   }
 }
 /*Media Queries */
-/*Mobile-VP*/
 @media screen and (max-width: 999px) {
   body{
     overflow-x: hidden;
@@ -1592,4 +1591,5 @@ header .scroll-btn-container div a span:nth-child(3) {
 }
 
 }
+
 /*# sourceMappingURL=main.css.map */
