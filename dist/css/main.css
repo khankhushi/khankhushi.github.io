@@ -1471,4 +1471,125 @@ header .scroll-btn-container div a span:nth-child(3) {
     margin: 0 1rem;
   }
 }
+/*Media Queries */
+/*Mobile-VP*/
+@media screen and (max-width: 999px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  header {
+    overflow-x: hidden;
+  }
+  .main-font {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  header .hero h1 {
+    letter-spacing: 2px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  header .hero p {
+    color: #dcdcdc;
+    line-height: 1.2;
+    font-size: 4vw;
+    text-align: center;
+    width: auto;
+    margin: 2px auto;
+    padding: 0.5rem;
+}
+.about .container {
+  max-width: 80vw;
+  height: auto;
+  border: none;
+  padding: 80px;
+  text-align: left;
+}
+
+.about .container .about-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 80vw;
+  align-self: center;
+  box-shadow: 0 0.15rem 0.6rem rgba(43, 52, 56, 0.15);
+  padding: 20px;
+  border-radius: 3px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+
+  header nav {
+    width: 100%;
+    position: fixed;
+    background-color: #000;
+    z-index: 10000;
+    height: auto;
+    margin-top: -5%;
+  }
+
+  .about {
+    height: auto;
+  }
+	.container{
+	width: 80%;
+  height: auto;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 50vw;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+#edu{
+  height:150%;
+}
+
+}
 /*# sourceMappingURL=main.css.map */
