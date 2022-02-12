@@ -378,7 +378,7 @@ color: #3b82f6;
 }
 
 header {
-  background-image: url(/dist/img/background.png);
+  background-color: #000;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -609,25 +609,6 @@ header .scroll-btn-container div a span:nth-child(3) {
   }
 }
 
-header .seperator-skew {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-
-header .seperator-skew svg {
-  position: absolute;
-  bottom: 0;
-}
-
-header .seperator-skew svg .fill-white {
-  fill: white;
-}
 
 @media screen and (max-width: 999px) {
   header nav .container {
@@ -1021,16 +1002,7 @@ header .seperator-skew svg .fill-white {
   margin-top: 1rem;
 }
 
-.projects .project-row #webscraper {
-  background-image: url("../img/top10songs.JPG");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transition: background-image 0.2s ease-in-out;
-}
 
-.projects .project-row #webscraper:hover {
-  background-image: url("../img/top10songs.gif");
-}
 
 @media screen and (max-width: 860px) {
   .projects .project-row {
@@ -1311,44 +1283,7 @@ header .seperator-skew svg .fill-white {
   transform: scale(1.3);
 }
 
-.skills .seperator-skew-top {
-  position: absolute;
-  top: -1px;
-  left: 0;
-  right: 0;
-  height: 150px;
-  width: 120%;
-  overflow: hidden;
-}
 
-.skills .seperator-skew-top svg {
-  position: absolute;
-  top: 0;
-  transform: scaleY(-1) scaleX(-1);
-}
-
-.skills .seperator-skew-top svg .fill-white {
-  fill: white;
-}
-
-.skills .seperator-skew-bottom {
-  position: absolute;
-  bottom: -0.5px;
-  left: 0;
-  right: 0;
-  height: 150px;
-  width: 120%;
-  overflow: hidden;
-}
-
-.skills .seperator-skew-bottom svg {
-  position: absolute;
-  bottom: 0;
-}
-
-.skills .seperator-skew-bottom svg .fill-white {
-  fill: white;
-}
 
 .contact {
   background: white;
