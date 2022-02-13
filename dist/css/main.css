@@ -1598,11 +1598,12 @@ header .scroll-btn-container div a span:nth-child(3) {
 	
 .footer .footer-flex {
   display: flex;
-  justify-content: space-between;
-  height: 2rem;
-  display: flex;
-  padding-bottom: 1rem;
-
+    justify-content: flex-end;
+    /* height: 2rem; */
+    display: flex;
+    /* padding-bottom: 1rem; */
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 }
 
