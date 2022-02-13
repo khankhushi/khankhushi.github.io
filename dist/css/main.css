@@ -1297,7 +1297,7 @@ header .scroll-btn-container div a span:nth-child(3) {
 
 .contact .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 3rem;
   flex-wrap: wrap;
 }
@@ -1413,6 +1413,7 @@ header .scroll-btn-container div a span:nth-child(3) {
   justify-content: space-between;
   height: 2rem;
   display: flex;
+  padding: 1rem;
 
 }
 
@@ -1541,7 +1542,8 @@ header .scroll-btn-container div a span:nth-child(3) {
     background-color: #000;
     z-index: 10000;
     height: auto;
-    margin-top: -5%;
+    margin-top: -5%;	
+    justify-content: center;
   }
 
   .about {
@@ -1590,6 +1592,18 @@ header .scroll-btn-container div a span:nth-child(3) {
   height:150%;
 }
 
+.contact .card-container {
+  display: flex;}
+	
+	
+.footer .footer-flex {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  display: flex;
+  padding: 1rem;
+
+}
 }
 
 /*# sourceMappingURL=main.css.map */
