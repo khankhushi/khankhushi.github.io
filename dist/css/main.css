@@ -980,6 +980,7 @@ header .scroll-btn-container div a span:nth-child(3) {
 
 .projects .project-row .project-right h3 {
   font-size: 1.25rem;
+  color: #3b82f6;
 }
 
 .projects .project-row .project-right .tech-stack-list {
