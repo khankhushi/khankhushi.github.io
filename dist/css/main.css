@@ -951,7 +951,7 @@ header .scroll-btn-container div a span:nth-child(3) {
 }
 
 .projects p {
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
   color: #fff;
 }
