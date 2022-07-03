@@ -1,6 +1,6 @@
 # Khushi's Portfolio
 
-Catch it live here: https://bit.ly/Khushi-Khan
+Catch it live here: https://khankhushi.github.io/
 
 Created with HTML/CSS, JavaScript and Designed with Figma.
 
